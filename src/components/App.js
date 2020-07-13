@@ -1,18 +1,18 @@
 import React from 'react';
-
+import {BrowserRouter,Switch,Route,} from "react-router-dom";
+import title from "./title/title";
+import unknown from "./404/404";
+import information from "./sources/sources";
 function App() {
   return (
-    <div className="App">
-      <div className="Title">
-      <h1 id="mTitle">
-        My Capstone Project
-       
-      </h1>
-      <h5 >
-        by, Spencer Evans-Cole
-      </h5>
-      </div>
-    </div>
+    <BrowserRouter>
+    <Switch>
+    <Route path="/" exact component={title}/>
+    <Route path="/sources" exact component={information}/>
+    <Route path="/" component={unknown}/>
+    </Switch>
+    </BrowserRouter>
+    
   );
 }
 

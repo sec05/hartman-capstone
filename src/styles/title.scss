@@ -1,0 +1,40 @@
+
+.titleContainer
+{
+  font-family: noto-sans;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* position the div in center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  }
+.titleContainer, h1
+{
+  font-size: 90px;
+  color: black;
+}
+.titleContainer, h5
+{
+  font-size: 30px;
+  color: black;
+}
+.github
+{
+  float: right;
+  cursor: pointer;
+  color: black;
+  padding: 5px;
+}
+.Sources{
+  float: right;
+  cursor: pointer;
+  color: black;
+  padding: 5px;
+}
