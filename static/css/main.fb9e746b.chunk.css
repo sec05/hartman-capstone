@@ -1,0 +1,2 @@
+body .titleContainer{font-family:noto-sans;text-align:center;padding:100px;display:flex;justify-content:center;align-items:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:2px solid #000}body .titleContainer,body h1{font-size:90px;color:#000}body .titleContainer,body h5{font-size:30px;color:#000}body .github,body .Sources{float:right;cursor:pointer;color:#000;padding:5px}body .title{font-family:noto sans}body .list{font-size:1.5rem}
+/*# sourceMappingURL=main.fb9e746b.chunk.css.map */
