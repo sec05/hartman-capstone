@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import { BrowserRouter,Route, } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 import "./styles/index.scss"
 import 'font-awesome/css/font-awesome.min.css';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+<React.StrictMode>
+    <BrowserRouter>
+        <Route path="/" component={App} />
+    </BrowserRouter>,
   </React.StrictMode>,
+ 
   document.getElementById('root')
 );
 
