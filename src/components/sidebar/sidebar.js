@@ -1,6 +1,5 @@
 import React from 'react'
-import {useLocation, NavLink, } from 'react-router-dom';
-//import $ from "jquery";
+import {NavLink, } from 'react-router-dom';
 export default function Sidebar () {
     function openBar()
     {
@@ -12,44 +11,6 @@ export default function Sidebar () {
     {
         document.getElementById("bar").style.width="0%"
     }
-/*    function pastBar()
-    {
-        console.log("updatebar")
-        if(pastLocation!==undefined)
-        {
-            document.getElementById(pastLocation).style.color="white";
-            console.log("resetting colors")
-        }
-    }
-    React.useEffect(() => {
-        console.log('Location changed');
-      }, [currentLocation]);
-    
-    function updateBar()
-    {
-       
-        if(currentLocation.pathname==="/")
-    {
-        pastLocation = "home";
-    
-        document.getElementById("home").style.color = "yellow";
-        document.getElementById("home-carret").style.color = "yellow";
-    }
-    }
-    */
-  /*function dropdown()
-  {
-      const degree = -90;
-    $("1carret").animate({
-        '-webkit-transform': 'rotate(' + degree + 'deg)',
-        '-moz-transform': 'rotate(' + degree + 'deg)',
-        '-ms-transform': 'rotate(' + degree + 'deg)',
-        '-o-transform': 'rotate(' + degree + 'deg)',
-        'transform': 'rotate(' + degree + 'deg)',
-}, 3000); 
-console.log('dropdown function');
-  }
-  const car1 = "#1carret"*/
     return (
         <div className="sidebar">
          <i onClick={openBar} className="fa fa-bars fa-2x opener" aria-hidden="true"></i>
@@ -60,11 +21,9 @@ console.log('dropdown function');
                   <tbody>
                         <tr>
                         <td><NavLink to="/"><h1 id="/">Home</h1></NavLink></td>
-                        <td><td></td></td>
                         
-                       
                         </tr>
-                        <tr><td ><NavLink to="/page2"><h1 id="/page2">page 2</h1></NavLink></td><td></td></tr>
+                        <tr><td ><NavLink  to="/page2"><h1 id="/page2">page 2</h1></NavLink></td></tr>
                   </tbody>
               
               </table>
