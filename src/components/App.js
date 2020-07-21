@@ -1,13 +1,14 @@
 import React from 'react';
 import { Switch, Route, } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import title from "./title/title";
-import unknown from "./404/404";
-import information from "./info/info";
+import Sidebar from "./sidebar/sidebar";
+import unknown from './404/404';
+import title from './title';
+import information from"./info";
 function App() {
   return (
     <div className="app">
-   
+      <Sidebar></Sidebar>
     <Route render={({location})=>(
       <TransitionGroup>
       <CSSTransition timeout={500} classNames="slide" key={location.key}>

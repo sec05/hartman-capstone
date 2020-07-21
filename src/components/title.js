@@ -1,6 +1,8 @@
 import React from 'react';
 //import Link from 'react-router-dom';
 import { NavLink } from "react-router-dom";
+import BottomArrow from './arrows/bottom-arrow';
+
 export default function title() {
   return (
     <div className="Title">
@@ -12,6 +14,7 @@ export default function title() {
           <h5>By, Spencer Evans-Cole</h5>
         </pre>
       </div>
+      <BottomArrow link="/page2"></BottomArrow>
     </div>
   )
 }

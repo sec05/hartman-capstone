@@ -6,11 +6,11 @@ import * as serviceWorker from './serviceWorker';
 import "./styles/index.scss"
 import 'font-awesome/css/font-awesome.min.css';
 ReactDOM.render(
-<React.StrictMode>
+
     <BrowserRouter>
         <Route path="/" component={App} />
     </BrowserRouter>,
-  </React.StrictMode>,
+
  
   document.getElementById('root')
 );
