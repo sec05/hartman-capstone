@@ -11,14 +11,13 @@ export default function information() {
                     <hr></hr>
                     <h2 className="title">Development</h2>
                     <ul className="list">
+                        <li><a href="https://fontawesome.com/" target="noopener">Font Awesome 5.13.1</a></li>
                         <li><a href="https://reactjs.org/" target="noopener">React 16.13.1</a></li>
+                        <li><a href="https://reactrouter.com/" target="noopener">React Router 5.2</a></li>
+                        
 
                     </ul>
-                    <h2 className="title">Sources</h2>
-                    <ul className="list">
-                        <li>React 16.13.1</li>
-
-                    </ul>
+                    
                 </div>
             </main>
         </div>

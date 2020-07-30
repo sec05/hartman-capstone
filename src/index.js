@@ -7,7 +7,7 @@ import "./styles/index.scss"
 import 'font-awesome/css/font-awesome.min.css';
 ReactDOM.render(
 
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route path="/" component={App} />
     </BrowserRouter>,
 

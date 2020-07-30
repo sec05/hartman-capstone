@@ -11,16 +11,16 @@
 }
 .bar {
   height: 100%;
-  width: 0;
+  
   position: fixed;
   z-index: 2 !important;
   top: 0;
-  left: 0;
+  left: -20%;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.95);
   overflow-x: hidden;
   word-wrap: break-word;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .bar h1 {
     padding: 8px;
@@ -44,10 +44,4 @@
 .bar table>tbody>tr>td>h1
 {
     text-align: left;
-}
-.dropdown
-{
-  transform: rotate(90deg);
-  transition: 0.2s;
-  color: white;
 }

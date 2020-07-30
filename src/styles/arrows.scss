@@ -2,8 +2,16 @@
 {
   color: black;
   bottom: 10%;
-  position: absolute;
-  text-align: center;
-
-    margin:0 auto;
+  position: fixed;
+  left: 50%;
+  bottom: 3%;
+  transform: translate(-50%,3%);
+}
+.top-arrow
+{
+  color: black;
+  bottom: 97%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%,97%);
 }
