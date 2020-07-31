@@ -1,6 +1,8 @@
+body{
+  color:black;
+}
 //TITLE PAGE
-.title-background
-{
+.title-background {
   z-index: -10;
   height: 100vh;
   width: 100%;
@@ -8,154 +10,179 @@
   position: absolute;
   object-fit: fill;
 }
-.title
-{
+.title {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-
 }
 .titleContainer {
-    font-family: noto sans;
-    text-align: center;
-    padding: 3vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* position the div in center */
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 60%);
-    border: 2px solid black;
-    width: 75vw;
-  }
-  .titleContainer,
-  h1 {
-    font-size: 3.5vw;
-    color: black;
-  }
-  .titleContainer,
-  h5 {
-    font-size: 2vw;
-    color: black;
-  }
-  .github {
-    float: right;
-    cursor: pointer;
-    color: black;
-    padding: .2vw;
-  }
-  .Sources {
-    float: right;
-    cursor: pointer;
-    color: black;
-    padding: .2vw;
-  }
-  .rwd-line {
-    display: block;
-    overflow-wrap: break-word;
-    word-wrap: "break-word";
-  }
-  
-  @media screen and (min-width: 768px) {
-    .rwd-line {
-      display: inline;
-    }
-  }
-  //--------------------------------------
-  //INFO PAGE
-  .title
-{
-    font-family: noto sans;
-    
+  font-family: noto sans;
+  text-align: center;
+  padding: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position the div in center */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  border: 2px solid black;
+  width: 75vw;
+}
+.titleContainer,
+h1 {
+  font-size: 3.5vw;
+  color: black;
+}
+.titleContainer,
+h5 {
+  font-size: 2vw;
+  color: black;
+}
+.github {
+  float: right;
+  cursor: pointer;
+  color: black;
+  padding: 0.2vw;
+}
+.Sources {
+  float: right;
+  cursor: pointer;
+  color: black;
+  padding: 0.2vw;
+}
+.rwd-line {
+  display: block;
+  overflow-wrap: break-word;
+  word-wrap: "break-word";
+}
 
+@media screen and (min-width: 768px) {
+  .rwd-line {
+    display: inline;
+  }
 }
-h2.title
-{
-    font-size: 3vw;
-    color: black;
+//--------------------------------------
+//INFO PAGE
+.title {
+  font-family: noto sans;
 }
-h1.title
-{
-    font-size: 5vw;
+h2.title {
+  font-size: 3vw;
+  color: black;
 }
-.list{
-    font-size: 1.5vw;
+h1.title {
+  font-size: 5vw;
 }
-.home
-{
-    float: right;    
-    color: black;
+.list {
+  font-size: 1.5vw;
+}
+.home {
+  float: right;
+  color: black;
 }
 //--------------------------------------------
 //INTRO PAGE
-.vl
-{
-    border-left: 6px solid black;
+.vl {
+  border-left: 6px solid black;
   height: 30vw;
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%) rotate(15deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(15deg);
 }
-.background-gradient
-{
+.background-gradient {
   z-index: -10;
-  position:fixed;
-  width:100%;
-  height:100%;
-  top:0px;
-  left:0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
   margin: auto;
   background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, white 50% , black 50%); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, white 50%, black 50%); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, white 50%, black 50%); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, white 50% , black 50%); /* Standard syntax */
+  background: -webkit-linear-gradient(
+    left,
+    white 50%,
+    black 50%
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    right,
+    white 50%,
+    black 50%
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    right,
+    white 50%,
+    black 50%
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    to right,
+    white 50%,
+    black 50%
+  ); /* Standard syntax */
 }
 //404 PAGE
- .backgroundIMG
-{
-    z-index: -10;
-    width: 100%;
-    max-height: 100vh;
-    margin: auto;
+.backgroundIMG {
+  z-index: -10;
+  width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
-.error
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 //-------------------------------------------------
-//CLAIM 1 PAGE
-.claim
-{
-    font-family: noto sans;
+//CLAIM PAGE
+.claim {
+  font-family: noto sans;
 }
-.claim-content
-{
-   
-    transform: translate(0%,15%);
-    margin-left: 10%;
-    margin-right: 10%;
-    position: fixed;
-    word-wrap: break-word;
+.claim-content {
+  transform: translate(0%, 15%);
+  margin-left: 10%;
+  margin-right: 10%;
+  word-wrap: break-word;
+  max-height: fit-content;
+  overflow-y: auto;
+  position: relative !important;
+  margin-bottom: 10px;
+}
+.claim-content-i {
+  transform: translate(0%, 15%);
+  margin-left: 10%;
+  margin-right: 10%;
+  word-wrap: break-word;
+  max-height: fit-content;
+  overflow-y: none;
+  position: relative !important;
+  margin-bottom: 10px;
+}
+.img-container {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  transition: 0.25s linear;
 }
 //----------------------------------------------------
-//CLAIM 3
-.chart
-{
-width: 30vw !important;
-height: 30vh !important;
-display: inline;
+//CLAIM 1
+.claim1 {
+  font-size: 2vw;
 }
-.chart-container
-{
+
+//--------------------
+//CLAIM 3
+.chart {
+  width: 30vw !important;
+  height: 30vh !important;
+  display: inline;
+}
+.chart-container {
   float: left;
-  margin-right: 1em;
-	margin-bottom: 1em;
+  margin-right: 0.75em;
+  margin-bottom: 1em;
 }

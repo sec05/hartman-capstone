@@ -8,7 +8,7 @@ export default function Page2() {
            <br/>
            <br/>
            <br/>
-            <h1 className="claim-content">Anti-Semitic hate crimes have been on a rise in the United States recently. In 2018, the FBI reported that 57.8% of all hate crimes committed were targeting Jewish people. Modern anti-semitism is anti-Judaism because of its roots in the Gospels, its use in Mein Kampf, and modern alt-right rallying. </h1>
+            <h1 className="claim-content-i"style={{overflowY:"hidden !important"}}>Anti-Semitic hate crimes have been on a rise in the United States recently. In 2018, the FBI reported that 57.8% of all hate crimes committed were targeting Jewish people. Modern anti-semitism is anti-Judaism because of its roots in the Gospels, its use in Mein Kampf, and modern alt-right rallying. </h1>
            <BottomArrow link="/claim1"></BottomArrow>
           </div>  
 

@@ -5,7 +5,7 @@ import Chart from "chart.js"
 import ChartDataLabels from "chartjs-plugin-labels";
 export default function claim1() {
     Chart.defaults.global.defaultFontColor = 'black';
-    Chart.defaults.global.defaultFontSize = 25;
+    Chart.defaults.global.defaultFontSize = window.screen.height/65;
     
  
     let ctx = 'pie-chart';
@@ -42,10 +42,11 @@ export default function claim1() {
         datasets: [{
             fill: true,
             backgroundColor: [
-                'rgb(255,211,29)',
-                'rgb(214,52,71)',
-                'rgb(245,123,81)',
-                'rgb(122,0,0)'
+                '#1b6ca8',
+                 '#f3c623',
+                '#84a9ac',
+                '#bbf1c8',
+               
             ],
             data: [57.8,14.5,4.1,23.6],
 
