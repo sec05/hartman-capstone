@@ -8,7 +8,7 @@ export default function title() {
     <div className="Title">
       <div className="titleContainer">
 
-        <h1 className="rwd-line">Modern Ant-Semitism is Anti-Judaism
+        <h1 className="rwd-line">Modern Anti-Semitism is Anti-Judaism
          <br /> <h5><br />Spencer Evans-Cole</h5></h1>
       </div>
       <BottomArrow link="/intro"></BottomArrow>

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Switch, Route, NavLink } from "react-router-dom";
+import { Switch, Route,} from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Sidebar from "./sidebar/sidebar";
 import unknown from './404';
 import title from './title';
-import information from "./info";
 import Intro from "./Intro";
 import Claim1 from "./claim1";
 import Claim2 from "./claim2";
@@ -14,14 +13,12 @@ function App() {
   return (
     <div className="app">
       <Sidebar></Sidebar>
-      <NavLink exact to="/info" className="Sources"><i className="fa fa-info-circle fa-2x" ></i></NavLink>
       <a className="github" href="https://github.com/sec05/hartman-capstone"> <i className="fa fa-github fa-2x" ></i></a>
       <Route render={({ location }) => (
         <TransitionGroup>
           <CSSTransition timeout={500} classNames="slide" key={location.key}>
             <Switch location={location}>
               <Route path="/" exact component={title} />
-              <Route path="/info" exact component={information} />
               <Route path="/intro" exact component={Intro} />
               <Route path="/claim1" exact component={Claim1} />
               <Route path="/claim2" exact component={Claim2} />
